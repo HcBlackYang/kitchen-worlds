@@ -1,0 +1,18 @@
+<robot name="floor1">
+  <link name="box">
+    <inertial>
+      <mass value="0"></mass>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <collision name="box_collision">
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+      <geometry>
+        <box size="4.699999809265137 9.399999618530273 0.0010000000474974513"/>
+      </geometry>
+      
+    </collision>
+    
+  </link>
+  
+</robot>

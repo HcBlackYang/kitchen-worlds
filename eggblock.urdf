@@ -1,0 +1,18 @@
+<robot name="eggblock">
+  <link name="box">
+    <inertial>
+      <mass value="0"></mass>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <collision name="box_collision">
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+      <geometry>
+        <box size="0.029999999329447746 0.029999999329447746 0.03999999910593033"/>
+      </geometry>
+      
+    </collision>
+    
+  </link>
+  
+</robot>

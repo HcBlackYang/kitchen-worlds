@@ -1,0 +1,18 @@
+<robot name="banana#12_1">
+  <link name="banana">
+    <inertial>
+      <mass value="0"></mass>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <collision name="banana_collision">
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+      <geometry>
+        <mesh filename="/home/blake/kitchen-worlds/assets/models/011_banana/textured.obj" scale="1.0 1.0 1.0" />
+      </geometry>
+      
+    </collision>
+    
+  </link>
+  
+</robot>

@@ -1,0 +1,82 @@
+<robot name="table#1_1">
+  <link name="table_top">
+    <inertial>
+      <mass value="0"></mass>
+      <origin xyz="0.0 0.0 0.7149999737739563" rpy="0.0 -0.0 3.141592653589793" />
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <collision name="table_top_collision">
+      <origin xyz="0.0 0.0 0.7149999737739563" rpy="0.0 -0.0 3.141592653589793" />
+      <geometry>
+        <box size="0.30000001192092896 0.6000000238418579 0.014999999664723873"/>
+      </geometry>
+      
+    </collision>
+    
+  </link>
+  
+  <link name="table_leg_1">
+    <inertial>
+      <mass value="0"></mass>
+      <origin xyz="-0.2849999964237213 -0.5849999785423279 0.3499999940395355" rpy="0.0 -0.0 3.141592653589793" />
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <collision name="table_leg_1_collision">
+      <origin xyz="-0.2849999964237213 -0.5849999785423279 0.3499999940395355" rpy="0.0 -0.0 3.141592653589793" />
+      <geometry>
+        <box size="0.014999999664723873 0.014999999664723873 0.3499999940395355"/>
+      </geometry>
+      
+    </collision>
+    
+  </link>
+  
+  <link name="table_leg_2">
+    <inertial>
+      <mass value="0"></mass>
+      <origin xyz="-0.2849999964237213 0.5849999785423279 0.3499999940395355" rpy="0.0 -0.0 3.141592653589793" />
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <collision name="table_leg_2_collision">
+      <origin xyz="-0.2849999964237213 0.5849999785423279 0.3499999940395355" rpy="0.0 -0.0 3.141592653589793" />
+      <geometry>
+        <box size="0.014999999664723873 0.014999999664723873 0.3499999940395355"/>
+      </geometry>
+      
+    </collision>
+    
+  </link>
+  
+  <link name="table_leg_3">
+    <inertial>
+      <mass value="0"></mass>
+      <origin xyz="0.2849999964237213 -0.5849999785423279 0.3499999940395355" rpy="0.0 -0.0 3.141592653589793" />
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <collision name="table_leg_3_collision">
+      <origin xyz="0.2849999964237213 -0.5849999785423279 0.3499999940395355" rpy="0.0 -0.0 3.141592653589793" />
+      <geometry>
+        <box size="0.014999999664723873 0.014999999664723873 0.3499999940395355"/>
+      </geometry>
+      
+    </collision>
+    
+  </link>
+  
+  <link name="table_leg_4">
+    <inertial>
+      <mass value="0"></mass>
+      <origin xyz="0.2849999964237213 0.5849999785423279 0.3499999940395355" rpy="0.0 -0.0 3.141592653589793" />
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+    <collision name="table_leg_3_collision">
+      <origin xyz="0.2849999964237213 0.5849999785423279 0.3499999940395355" rpy="0.0 -0.0 3.141592653589793" />
+      <geometry>
+        <box size="0.014999999664723873 0.014999999664723873 0.3499999940395355"/>
+      </geometry>
+      
+    </collision>
+    
+  </link>
+  
+</robot>

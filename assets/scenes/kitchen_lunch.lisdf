@@ -11,11 +11,6 @@
     </gui>
 
 
-    <include name="pr2">    
-      <uri>../models/drake/pr2_description/urdf/pr2_simplified.urdf</uri>
-      <pose>2.5 6.0 0.051 0.0 -0.0 3.142</pose>
-    </include>            
-
 
     <include name="milkbottle#1">
       <uri>../models/MilkBottle/4043/mobility.urdf</uri>
@@ -117,22 +112,6 @@
 
 
     <state world_name="kitchen_lunch">
-      <model name="pr2">
-        <joint name="l_shoulder_pan_joint"><angle>0.677</angle></joint>
-        <joint name="l_shoulder_lift_joint"><angle>-0.343</angle></joint>
-        <joint name="l_upper_arm_roll_joint"><angle>1.2</angle></joint>
-        <joint name="l_elbow_flex_joint"><angle>-1.467</angle></joint>
-        <joint name="l_forearm_roll_joint"><angle>1.242</angle></joint>
-        <joint name="l_wrist_flex_joint"><angle>-1.954</angle></joint>
-        <joint name="l_wrist_roll_joint"><angle>2.223</angle></joint>
-        <joint name="r_shoulder_pan_joint"><angle>-2.135</angle></joint>
-        <joint name="r_shoulder_lift_joint"><angle>1.296</angle></joint>
-        <joint name="r_upper_arm_roll_joint"><angle>-3.75</angle></joint>
-        <joint name="r_elbow_flex_joint"><angle>-0.15</angle></joint>
-        <joint name="r_forearm_roll_joint"><angle>-10000.0</angle></joint>
-        <joint name="r_wrist_flex_joint"><angle>-0.1</angle></joint>
-        <joint name="r_wrist_roll_joint"><angle>-10000.0</angle></joint>
-      </model>
       <model name="fridge#1">
         <joint name="fridge_door"><angle>1.57</angle></joint>
       </model>
